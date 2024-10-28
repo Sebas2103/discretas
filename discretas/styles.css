@@ -1,0 +1,43 @@
+
+body {
+    overflow: auto; 
+    font-family: 'times new roman', sans-serif; 
+    background: rgb(70,228,252);
+    background: radial-gradient(circle, rgba(70,228,252,0.4980435411469275) 0%, rgba(181,70,252,0.5008446615951068) 100%);
+}
+input.form-control {
+    background-color:#c0c8fd;
+    border-radius: 10px; /* Ajusta el valor según tus necesidades */
+    border: 0.5px solid rgb(37, 36, 36);
+}
+h1 {
+    font-weight: 600; 
+    transition: transform 0.3s ease-in-out;  /* Transición suave  de la letra*/
+}
+h1:hover {
+    transform: translateY(-5px);  /* Mueve la letra hacia arriba 5px */
+    color: #efb810;  /* Opcional: cambia el color al pasar el ratón */
+}
+
+label.form-label{
+    font-weight: 500;
+}
+/* Estilo inicial para la imagen */
+img {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto de agrandamiento al pasar el ratón */
+img:hover {
+    transform: scale(1.1); /* Agranda la imagen a 120% de su tamaño original */
+   
+
+}
+footer{
+    position: static;
+}
+
+h1.titulo{
+    text-align: center;
+    font-family: 'Rubik', Arial, sans-serif; /* Rubik como fuente principal, Arial como respaldo */
+}
